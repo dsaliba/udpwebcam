@@ -1,0 +1,12 @@
+<package>
+  <description brief="udpwebcam">
+
+     udpwebcam
+
+  </description>
+  <author>Dimitri Saliba</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/udpwebcam</url>
+
+</package>
