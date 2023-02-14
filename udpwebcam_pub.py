@@ -14,7 +14,7 @@ def publish_message():
   rospy.init_node('udpwebcam_pub', anonymous=True)
   nname = rospy.get_name()
   rate = rospy.Rate(rospy.get_param(nname+'/fps'))
-
+  print(rospy.get_param(nname+'/fps'))
   # Get parameters
   device_id = rospy.get_param(nname+'/device_id')
   udp_port = rospy.get_param(nname+'/udp_port')
